@@ -10,7 +10,16 @@
 
  
 
-  <script defer src='https://portalstage.catchpoint.com/jp/94431/latest/InitialLoadScript.js'></script>
+  <script defer src='https://portalstage.catchpoint.com/jp/94431/v4.0.11/InitialLoadScript.js'></script>
+
+<!-- The following code changes the beacon from unload/beforeunload to pageHide -->
+<!-- <script language="javascript" type="text/javascript">
+if (window.RProfiler) {
+    window.RProfiler.usePageHide();
+} else {
+    window.addEventListener('GlimpseLoaded', () => window.RProfiler.usePageHide());
+}
+</script> -->
   <!--script type="application/javascript" src="rprofiler.js"></script>-->
   <!--script type="application/javascript" src="rprofilersdsdsd.js"></script>--> 
   <script language="javascript" type="text/javascript">
